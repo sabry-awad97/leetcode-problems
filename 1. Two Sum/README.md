@@ -21,9 +21,9 @@ Overall, the Two Sum problem is a useful problem to understand and solve, as it 
 To solve the Two Sum problem, you can follow these steps:
 
 1. Define a function with the parameters nums (a list of integers) and target (the target number that the two numbers in the list should add up to).
-1. Create an empty dictionary called diff_dict.
+1. Create an empty dictionary called `diff_dict`.
 1. Loop through the elements in nums and their indices using a for loop.
 1. Calculate the difference between the target number and the current element in the loop.
-1. Check if the difference is in the diff_dict dictionary. If it is, return a tuple containing the indices of the two numbers that add up to the target number. The first element of the tuple is the value stored in the diff_dict dictionary under the key diff, and the second element is the current index.
-1. If the difference is not in the diff_dict dictionary, store the current element and its index in the dictionary.
+1. Check if the difference is in the `diff_dict` dictionary. If it is, return a tuple containing the indices of the two numbers that add up to the target number. The first element of the tuple is the value stored in the `diff_dict` dictionary under the key diff, and the second element is the current index.
+1. If the difference is not in the `diff_dict` dictionary, store the current element and its index in the dictionary.
 1. After the for loop completes, return None if no pair of numbers that add up to the target number was found.
